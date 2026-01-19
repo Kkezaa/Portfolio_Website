@@ -1,0 +1,57 @@
+
+body{
+    background-color: #121212;
+}
+
+.logo{
+    
+    font-family: "Special Gothic Expanded One", sans-serif;
+    color: white; 
+    font-size: 1.5rem;
+    margin-left: 25px;
+}
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color: #1E1E1E;
+    justify-content: space-between; 
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding-right: 35px;
+    
+}
+.navbar li{
+    margin-left: 15px
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display:inline-block;  
+    font-family: "Special Gothic Expanded One", sans-serif;  
+}
+    
+
+.navbar ul a:hover{
+    background-color: #FF7F50;
+}
+
+
+
+#p1{
+    color: #FF7F50;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+    
+   
+}
