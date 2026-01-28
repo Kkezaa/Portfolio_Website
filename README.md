@@ -7,9 +7,11 @@ The screenshots below show the current state of the UI running on `localhost`.
 
 ## Current Preview
 
-![Homepage preview](portfoliofogit1.png)
-![Portfolio section preview](portfoliogit2.png)
-![Projects preview](portfoliogit3.png)
+## Current Preview
+
+![Homepage preview](screenshots/portfoliofogit1.png)
+![Portfolio section preview](screenshots/portfoliogit2.png)
+![Projects preview](screenshots/portfoliogit3.png)
 
 ## Tech Stack
 
