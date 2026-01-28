@@ -1,15 +1,21 @@
 
+/*background */
 body{
     background-color: #121212;
 }
 
+/* Logo */
 .logo{
     
     font-family: "Special Gothic Expanded One", sans-serif;
     color: white; 
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     margin-left: 25px;
+    
 }
+
+/* Navbar */
+
 .navbar {
     top: 0;
     left: 0;
@@ -43,8 +49,9 @@ body{
 .navbar ul a:hover{
     background-color: #FF7F50;
 }
-
-
+.logo :hover{
+    color: #FF7F50;
+}
 
 #p1{
     color: #FF7F50;
@@ -52,6 +59,106 @@ body{
     font-size: 20px;
     padding: 50px;
     text-align: center;
+    font-size: 30px;
+}
+.home{
+    display:flex;
+    align-items: center;
+    height: 90vh;
+    padding: 60px 9% 0;
+    color: #FF7F50;
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+.home-info h1{
+    font-size: 60px;
+    margin-bottom: 5px;
+  
+}
+.home-info h2{
+    font-size: 30px;
     
-   
+}
+.home-info p{
+    font-size: 16px;
+    max-width: 1000px;
+    line-height: 1.6;
+}
+
+/*     **Icons**     */
+
+.fa-github{
+    margin-right: 5px;
+    color: #FF7F50;
+}
+.fa-github:hover{
+    color: white;
+    
+}
+.fa-linkedin{
+    margin-right: 5px;
+    color: #FF7F50;
+    text-decoration: none;
+}
+.fa-linkedin:hover{
+    color: white;
+}
+.fa-envelope{
+    margin-right: 5px;
+    color: #FF7F50;
+}
+.fa-envelope:hover{
+    color: white;
+}
+
+
+/*    **Section divider**    */
+
+.section-divider {
+  width: 80%;
+  height: 4px;
+  background: linear-gradient(to right, transparent, #FF7F50 , transparent);
+  margin: 4rem auto;
+}
+
+/*     **Porfolio section**     */
+
+.projects{
+    scroll-margin-top: 300px;
+}
+.project_1{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    color: #FF7F50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.project_1 h2{
+    font-size: 50px;
+}
+.project_1 a{
+    color: #FF7F50;
+    text-decoration: none;
+    
+}
+.project_1 p{
+    font-size: 15px;
+    max-width: 500px;
+}
+
+/* **About section** */
+
+.about{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    color:#FF7F50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.about h2{
+    font-size: 50px;
+}
+.about p{
+    max-width: 500px;
 }
