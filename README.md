@@ -5,7 +5,6 @@ This is my personal portfolio website, currently under development.
 The project is being built and tested locally and is not yet deployed.  
 The screenshots below show the current state of the UI running on `localhost`.
 
-## Current Preview
 
 ## Current Preview
 
