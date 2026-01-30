@@ -10,7 +10,8 @@ The screenshots below show the current state of the UI running on `localhost`.
 
 ![Homepage preview](screenshots/newgit.png)
 ![Portfolio section preview](screenshots/newgit2.png)
-![Projects preview](screenshots/newgit3.png)
+![About preview](screenshots/newgit3.png)
+![Contact preview](screenshots/newgit4.png)
 
 ## Tech Stack
 
