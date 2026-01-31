@@ -4,7 +4,7 @@
 
 
 body{
-    background-color: #121212;
+    background: linear-gradient(135deg, #1E1E1E, #2B1E1B, #121212);
     margin: 0;
     scroll-snap-type: none;
 }
@@ -16,7 +16,9 @@ body{
     font-size: 2.0rem;
     margin-left: 25px;
     
+    
 }
+
 
 /* Navbar */
 
@@ -105,6 +107,7 @@ body{
     margin-right: 5px;
     color: #FF7F50;
     text-decoration: none;
+
 }
 .fa-linkedin:hover{
     color: white;
@@ -140,7 +143,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 90px;
     
 }
 
@@ -149,7 +152,8 @@ body{
     width:min(58%, 1100px);
     overflow-x: auto;
     align-content: center;
-    margin: 3em auto;
+    margin: 1em auto 2em auto;
+    padding: 1em 0;
     display: flex;
     gap: 1em;
     scroll-behavior: smooth;
@@ -196,6 +200,9 @@ body{
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex: 0 0 20em;
     aspect-ratio: 5 / 3;
     background-color:#FF7F50;
@@ -206,6 +213,16 @@ body{
     align-content: center;
     scroll-snap-align: center;
     scroll-snap-stop: always;  
+    text-decoration: none;
+    color: #FFD2A6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card p{
+    color:#FFD2A6;
+}
+.card h3{
+    font-size: 30px;
+    color: #FFFFFF;
 }
 .card::scroll-marker {
     content: " ";
@@ -225,6 +242,12 @@ body{
     .card {
         flex: 0 0 100%;
     }
+}
+.card:hover{
+    transform: scale(1.05);          /* subtle zoom in */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25); /* depth effect */
+    cursor: pointer;
+    background: linear-gradient(135deg, #FF7F50, #FFA270);
 }
 
 
@@ -283,3 +306,8 @@ body{
 }
 
  
+/*TO DO:
+-Fix Cards not scrolling one by one
+-finish contact section 
+-add a portfolio picture
+ */
